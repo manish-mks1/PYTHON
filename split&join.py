@@ -1,0 +1,5 @@
+str=input("Enter string with space to split and join: ")
+spl_str= str.split(" ")
+print("splited string:",spl_str)
+jnd_str="-".join(spl_str)
+print("Joined string (with -) : ",jnd_str)
